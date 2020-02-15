@@ -21,6 +21,8 @@ public class Pozycja {
                 + this.ileSztuk + "    " + this.obliczWartosc() + "zł";
     }
 
+
+
     public String getNazwaTowaru() {
         return nazwaTowaru;
     }

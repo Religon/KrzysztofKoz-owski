@@ -43,6 +43,15 @@ public class Zamowienie {
         return result;
     }
 
+    public void usunPozycje(int index){
+
+    }
+
+    public void edytujPozycje(int indeks){
+
+    }
+
+
     public Pozycja[] getPozycje() {
         return pozycje;
     }
