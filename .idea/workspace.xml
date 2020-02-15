@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="14fdff7c-9bf6-4ba1-bb38-2ffabad7b5b0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KrzysztofKoz-owski.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/webinar/MyFirstClassWithIDEA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/webinar/zadania1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/webinar/zadanie2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/webinar/zadanie3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/webinar/zadanie4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/webinar/zadanie5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/webinar/zadanie6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zadania2/zadanie1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zadania2/zadanie2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zadania2/zadanie3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zadania2/zadanie4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zadania2/zadanie5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zadania2/zadanie6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajecia3/arrays/zadanie1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajecia3/arrays/zadanie2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajecia3/arrays/zadanie3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajecia3/fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajecia3/jkozak/zadanie7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajecia3/jkozak/zadanie8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajecia3/zadanie4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia4/funkcje/przykład.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia4/funkcje/zadanie1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia4/funkcje/zadanie2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia4/funkcje/zadanie3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia4/zadanie4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia5/Osoba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia5/Wstęp_do_projektu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia5/prostokąt/ProstokatProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia5/prostokąt/prostokąt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia5/zadanie1/Pozycja.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia5/zadanie1/Start_projektu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia5/zadanie1/Zamowienie.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1XpypEsHKF2s6gYJJqol0I40cxU" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="14fdff7c-9bf6-4ba1-bb38-2ffabad7b5b0" name="Default Changelist" comment="" />
+      <created>1581757511126</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581757511126</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
