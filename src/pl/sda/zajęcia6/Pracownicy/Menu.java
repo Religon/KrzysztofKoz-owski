@@ -25,33 +25,7 @@ public class Menu {
                 lista.printlista();
                 break;
             case 2:
-                String imie, nazwisko;
-                int nr_dzialu, wiek, dzieci;
-                float placa;
-                char plec;
-                boolean stan_cywilny;
-
-                System.out.println("podaj imie:");
-                imie = cin.nextLine();
-                System.out.println("podaj nazwisko:");
-                nazwisko = cin.nextLine();
-                System.out.println("podaj płeć(M - mężczyzna, K - Kobieta");
-                plec = cin.next().charAt(0);
-                if(plec != 'M' & plec != 'K' & plec != 'm' & plec != 'k')
-                    break;
-                System.out.println("podaj nr działu:");
-                nr_dzialu = cin.nextInt();
-                System.out.println("podaj placa:");
-                placa = cin.nextFloat();
-                System.out.println("podaj wiek:");
-                wiek = cin.nextInt();
-                System.out.println("podaj dzieci");
-                dzieci = cin.nextInt();
-                System.out.println("podaj stan cywilny:(true - Tak, false - Nie)");
-                stan_cywilny = cin.nextBoolean();
-
-                Firma pracownik = new Firma(nr,imie, nazwisko, plec, nr_dzialu, placa, wiek, dzieci, stan_cywilny);
-                lista.add_employe(pracownik);
+                lista.add_employe(nr);
                 nr++;
                 break;
             case 3:

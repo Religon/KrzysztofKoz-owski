@@ -1,5 +1,7 @@
 package pl.sda.zajęcia6.Pracownicy;
 
+import java.util.Scanner;
+
 public class Lista_pracownikow {
     private final static int domyślny_rozmiar_listy = 100;
     private Firma[] lista;
@@ -19,12 +21,38 @@ public class Lista_pracownikow {
         }
     }
 
-    public void add_employe(Firma pracownik){
+    public void add_employe(int nr){
+        Scanner cin = new Scanner(System.in);
+        String imie, nazwisko;
+        int nr_dzialu, wiek, dzieci;
+        float placa;
+        char plec;
+        boolean stan_cywilny;
+
+        System.out.println("podaj imie:");
+        imie = cin.nextLine();
+        System.out.println("podaj nazwisko:");
+        nazwisko = cin.nextLine();
+        System.out.println("podaj płeć(M - mężczyzna, K - Kobieta)");
+        plec = cin.nextLine().charAt(0);
+        System.out.println("podaj nr działu:");
+        nr_dzialu = cin.nextInt();
+        System.out.println("podaj placa:");
+        placa = cin.nextFloat();
+        System.out.println("podaj wiek:");
+        wiek = cin.nextInt();
+        System.out.println("podaj dzieci");
+        dzieci = cin.nextInt();
+        System.out.println("podaj stan cywilny:(true - Tak, false - Nie)");
+        stan_cywilny = cin.nextBoolean();
+
+        Firma pracownik = new Firma(nr, imie, nazwisko, plec, nr_dzialu, placa, wiek, dzieci, stan_cywilny);
         this.lista[licznik] = pracownik;
         licznik++;
     }
 
     public void delete_employe(int szukany){
+
         for(int i = 0; i < licznik; i++){
             if(szukany == this.lista[i].getNr())
                 this.lista[i] = null;

@@ -34,8 +34,9 @@ public class Firma {
     //////////////
 
     public void display_employe(){
-        System.out.println(this.nr + " " + this.imie + " " +this.nazwisko + " " + this.plec + " "
-                + this.nr_dzialu + " " + this.placa + " " + this.wiek + " " + this.dzieci
+        System.out.println("indeks\timię\tnazwisko\tpłeć\tnr działu\tpłaca\twiek\tdzieci\tstan cywilny");
+        System.out.println(this.nr + "\t" + this.imie + "\t" +this.nazwisko + "\t" + this.plec + "\t"
+                + this.nr_dzialu + "\t" + this.placa + "\t" + this.wiek + "\t" + this.dzieci
                 + " " + this.stan_cywilny );
     }
 
