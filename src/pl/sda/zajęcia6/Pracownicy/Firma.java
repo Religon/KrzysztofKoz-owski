@@ -1,6 +1,9 @@
 package pl.sda.zajęcia6.Pracownicy;
 
+import java.util.Scanner;
+
 public class Firma {
+    private int nr;
     private String imie;
     private String nazwisko;
     private char plec;
@@ -13,8 +16,9 @@ public class Firma {
     /////////////////
     ///konstruktor
     /////////////
-    public Firma(String imie, String nazwisko, char plec, int nr_dzialu, float placa,
+    public Firma(int nr, String imie, String nazwisko, char plec, int nr_dzialu, float placa,
                  int wiek, int dzieci, boolean stan_cywilny){
+        this.nr = nr;
         this.imie = imie;
         this.nazwisko = nazwisko;
         this.plec = plec;
@@ -30,7 +34,7 @@ public class Firma {
     //////////////
 
     public void display_employe(){
-        System.out.println(this.imie + " " +this.nazwisko + " " + this.plec + " "
+        System.out.println(this.nr + " " + this.imie + " " +this.nazwisko + " " + this.plec + " "
                 + this.nr_dzialu + " " + this.placa + " " + this.wiek + " " + this.dzieci
                 + " " + this.stan_cywilny );
     }
@@ -61,6 +65,15 @@ public class Firma {
     //////////////////////////////
     //settery i gettery
     //////////////////////////////
+
+    public int getNr() {
+        return nr;
+    }
+
+    public void setNr(int nr) {
+        this.nr = nr;
+    }
+
     public String getImie() {
         return imie;
     }

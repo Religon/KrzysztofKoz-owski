@@ -11,8 +11,11 @@ public class Lista_pracownikow {
     ///////////
 
     public void printlista(){
+        //System.out.println(this.licznik);
+
         for(int i = 0; i < licznik; i++){
-            lista[i].display_employe();
+            if(lista[i] != null)
+                lista[i].display_employe();
         }
     }
 
@@ -21,8 +24,11 @@ public class Lista_pracownikow {
         licznik++;
     }
 
-    public void delete_employe(int nr){
-        this.lista[nr] = null;
+    public void delete_employe(int szukany){
+        for(int i = 0; i < licznik; i++){
+            if(szukany == this.lista[i].getNr())
+                this.lista[i] = null;
+        }
     }
 
 
@@ -32,6 +38,9 @@ public class Lista_pracownikow {
     public Lista_pracownikow(int rozmiar){
         this.rozmiar = rozmiar;
         lista = new Firma[rozmiar];
+
+        Firma Ja = new Firma(0,"Krzysztof", "Kozłowski", 'M', 12, 2500, 26, 0, false);
+        lista[licznik++] = Ja;
     }
     //////////////////////
 
