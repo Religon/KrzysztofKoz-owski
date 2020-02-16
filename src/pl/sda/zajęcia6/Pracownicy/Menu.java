@@ -1,11 +1,10 @@
-package pl.sda.zajęcia6.Firma;
-
-import java.util.Scanner;
+package pl.sda.zajęcia6.Pracownicy;
 
 public class Menu {
     private final static int domyślny_rozmiar_listy = 100;
     private Firma[] lista;
     private int rozmiar;
+    private int licznik;
 
 
     ////konstruktor
@@ -19,7 +18,14 @@ public class Menu {
     ///////////
     ////metody
     ///////////
+    public void add_employe(Firma pracownik){
+        this.lista[licznik] = pracownik;
+        licznik++;
+    }
 
+    public void delete_employe(Firma pracownik){
+        this.lista[licznik] = null;
+    }
 
     ////////////////
     //settery i gettery

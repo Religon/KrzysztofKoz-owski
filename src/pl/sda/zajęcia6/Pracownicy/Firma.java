@@ -1,4 +1,4 @@
-package pl.sda.zajęcia6.Firma;
+package pl.sda.zajęcia6.Pracownicy;
 
 public class Firma {
     private String imie;
