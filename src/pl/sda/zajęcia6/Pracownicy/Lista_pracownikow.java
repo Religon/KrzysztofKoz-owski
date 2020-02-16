@@ -55,7 +55,10 @@ public class Lista_pracownikow {
 
         for(int i = 0; i < licznik; i++){
             if(szukany == this.lista[i].getNr())
-                this.lista[i] = null;
+                if(this.lista[i] != null)
+                    this.lista[i] = null;
+                else
+                    break;
         }
     }
 
