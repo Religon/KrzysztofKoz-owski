@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14fdff7c-9bf6-4ba1-bb38-2ffabad7b5b0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia6/Lista/Lista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia6/Lista/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/z_dom_na_7/zadanie4/Kalkulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/z_dom_na_7/zadanie4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/z_dom_na_7/zadanie4/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KrzysztofKoz-owski/pl/sda/zajęcia6/Pracownicy/Firma.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KrzysztofKoz-owski/pl/sda/zajęcia6/Pracownicy/Firma.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KrzysztofKoz-owski/pl/sda/zajęcia6/Pracownicy/Lista_pracownikow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KrzysztofKoz-owski/pl/sda/zajęcia6/Pracownicy/Lista_pracownikow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KrzysztofKoz-owski/pl/sda/zajęcia6/Pracownicy/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KrzysztofKoz-owski/pl/sda/zajęcia6/Pracownicy/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KrzysztofKoz-owski/pl/sda/zajęcia6/Pracownicy/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KrzysztofKoz-owski/pl/sda/zajęcia6/Pracownicy/Menu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/sda/zajęcia6/Pracownicy/Firma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia6/Pracownicy/Firma.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/sda/zajęcia6/Pracownicy/Lista_pracownikow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia6/Pracownicy/Lista_pracownikow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/sda/zajęcia6/Pracownicy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia6/Pracownicy/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/sda/zajęcia6/Pracownicy/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia6/Pracownicy/Menu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +49,20 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="z_dom_na_7.zadanie4.Main" />
+      <module name="KrzysztofKoz-owski" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="z_dom_na_7.zadanie4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.sda.zajęcia6.Pracownicy.Main" />
       <module name="KrzysztofKoz-owski" />
@@ -107,6 +117,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Start_projektu" />
         <item itemvalue="Application.Menu" />
@@ -186,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581854656011</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="teraz już musi być poprawnie!!!">
+      <created>1581859452190</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1581859452190</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -211,37 +229,42 @@
     <MESSAGE value="Zrobione wyświetlanie i dodawanie" />
     <MESSAGE value="Zrobione usuwanie" />
     <MESSAGE value="ulepszone dodawanie do listy" />
-    <option name="LAST_COMMIT_MESSAGE" value="ulepszone dodawanie do listy" />
+    <MESSAGE value="teraz już musi być poprawnie!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="teraz już musi być poprawnie!!!" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="72" key="#Code_Folding" timestamp="1581840943543">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="72" key="#Code_Folding/0.0.1536.824@0.0.1536.824" timestamp="1581840943543" />
-    <state x="574" y="97" key="#com.intellij.ide.util.MemberChooser" timestamp="1581848827298">
+    <state x="574" y="97" key="#com.intellij.ide.util.MemberChooser" timestamp="1582545848915">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="97" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1581848827298" />
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1581854654417">
+    <state x="574" y="97" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1582545848915" />
+    <state x="449" y="149" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1582541711807">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1581854654417" />
-    <state width="1493" height="251" key="GridCell.Tab.0.bottom" timestamp="1581859425415">
+    <state x="449" y="149" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1582541711807" />
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1581859450768">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="251" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581859425415" />
-    <state width="1493" height="251" key="GridCell.Tab.0.center" timestamp="1581859425415">
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1581859450768" />
+    <state width="1493" height="251" key="GridCell.Tab.0.bottom" timestamp="1582546839383">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="251" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581859425415" />
-    <state width="1493" height="251" key="GridCell.Tab.0.left" timestamp="1581859425415">
+    <state width="1493" height="251" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582546839383" />
+    <state width="1493" height="251" key="GridCell.Tab.0.center" timestamp="1582546839383">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="251" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581859425415" />
-    <state width="1493" height="251" key="GridCell.Tab.0.right" timestamp="1581859425415">
+    <state width="1493" height="251" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582546839383" />
+    <state width="1493" height="251" key="GridCell.Tab.0.left" timestamp="1582546839383">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="251" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581859425415" />
+    <state width="1493" height="251" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582546839383" />
+    <state width="1493" height="251" key="GridCell.Tab.0.right" timestamp="1582546839383">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="251" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582546839383" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1581762672949">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -250,9 +273,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1581854663056" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1581840295833">
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1582542016154">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581840295833" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1582542016154" />
+    <state x="499" y="168" width="538" height="495" key="extract.method.dialog" timestamp="1582546252148">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="168" width="538" height="495" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1582546252148" />
   </component>
 </project>
