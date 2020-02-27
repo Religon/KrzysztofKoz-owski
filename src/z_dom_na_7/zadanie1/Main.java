@@ -1,4 +1,4 @@
-package z_dom_na_7.zadanie4;
+package z_dom_na_7.zadanie1;
 
 public class Main {
     public static void main(String[] args) {
