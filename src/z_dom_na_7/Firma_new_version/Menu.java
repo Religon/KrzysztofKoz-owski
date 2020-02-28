@@ -13,6 +13,7 @@ public class Menu {
     public void printMenu(){
         Scanner cin = new Scanner(System.in);
         String linia = "";
+        int n = 0;
 
         while(!linia.equals("q")) {
             System.out.println("podaj n:" +
@@ -22,7 +23,8 @@ public class Menu {
                     "\n4 - edycja pracownika" +
                     "\n5 - dodatkowe funkcje" +
                     "\n99 - generator pracowników");
-            int n = cin.nextInt();
+
+            n = cin.nextInt();
 
             switch (n) {
                 case 1:
@@ -46,11 +48,12 @@ public class Menu {
                 default:
                     break;
             }
+
+            cin.nextLine();
+            System.out.println("by zakończyć wciśnij q, by kontynuować cokolowiek innego");
+            linia = cin.nextLine();
+            System.out.println(linia);
         }
-        cin.nextLine();
-        System.out.println("by zakończyć wciśnij q, by kontynuować cokolowiek innego");
-        linia = cin.nextLine();
-        System.out.println(linia);
     }
 
     public Lista_pracownikow getLista() {

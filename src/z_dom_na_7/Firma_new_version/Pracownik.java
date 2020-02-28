@@ -21,8 +21,7 @@ public class Pracownik {
                 ", placa:" + placa +
                 ", wiek:" + wiek +
                 ", dzieci:" + dzieci +
-                ", stan_cywilny:" + stan_cywilny +
-                '}');
+                ", stan_cywilny:" + stan_cywilny);
     }
 
     public void display_less(int i){

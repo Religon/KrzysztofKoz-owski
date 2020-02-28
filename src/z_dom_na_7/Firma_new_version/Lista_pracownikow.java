@@ -11,16 +11,20 @@ public class Lista_pracownikow {
 
     ///konstruktor
 
-    public Lista_pracownikow(){
+
+    public Lista_pracownikow() {
         Pracownik p = new Pracownik("Krzysztof", "Kozłowski", 'M', 1, 2500, 26, 0, false);
+        lista[licznik_pracownikow++] = p;
     }
 
     ////metody
     ///1 - wyświetlanie wszystkich pracowników
     public void print_all(){
-        for(int i = 0; i < lista.length; i++){
+        for(int i = 0; i < licznik_pracownikow; i++){
             if(lista[i] != null)
                 lista[i].display_less(i);
+            else
+                System.out.println("Pusto.");
         }
     }
 
@@ -80,7 +84,64 @@ public class Lista_pracownikow {
         }
     }
 
-    ///4 - edycja pracownika///////////////DOKONCZYC!!!!!!!
+    ///4 - edycja pracownika
+
+    private void pole_do_edytowania(int index){
+        int n = 0;
+        Scanner cin = new Scanner(System.in);
+        String koniec = "";
+
+        while(!koniec.equals("t")) {
+            System.out.println("podaj pole do edycji\n" +
+                    "1 - nazwisko(kobieta)\n" +
+                    "2 - nr działu\n" +
+                    "3 - placa\n" +
+                    "4 - wiek\n" +
+                    "5 - dzieci\n" +
+                    "6 - stan cywilny\n");
+            n = cin.nextInt();
+            System.out.println("Zmień:");
+            switch (n) {
+                case 1:
+                    if(lista[index].getPlec() == 'K'){
+                        String nazwisko = cin.nextLine();
+                        lista[index].setNazwisko(nazwisko);
+                    }
+                    else
+                        System.out.println("Tylko kobiet mogą zmienić nazwisko!");
+                    break;
+                case 2:
+                    int nr_dzialu = cin.nextInt();
+                    lista[index].setNr_dzialu(nr_dzialu);
+                    break;
+                case 3:
+                    float placa = cin.nextFloat();
+                    lista[index].setPlaca(placa);
+                    break;
+                case 4:
+                    int wiek = cin.nextInt();
+                    lista[index].setWiek(wiek);
+                    break;
+                case 5:
+                    int dzieci = cin.nextInt();
+                    lista[index].setDzieci(dzieci);
+                    break;
+                case 6:
+                    boolean stan = cin.nextBoolean();
+                    lista[index].setStan_cywilny(stan);
+                    break;
+
+                default:
+                    break;
+            }
+
+            cin.nextLine();
+            System.out.println("podaj t by zakończyć edycję");
+            koniec = cin.nextLine();
+            System.out.println(koniec);
+        }
+
+    }
     public void edycja_pracownika(){
         Scanner cin = new Scanner(System.in);
         int suma_pracownikow = ile_mamy_pracownikow(), index = 0;
@@ -90,6 +151,7 @@ public class Lista_pracownikow {
             index = Integer.parseInt(cin.nextLine());
             lista[index].display_pracownik();
 
+            pole_do_edytowania(index);
             System.out.println("Z edytownao pracownika.");
         }
         else {
