@@ -2,6 +2,7 @@ package z_dom_na_7.Firma_new_version;
 
 import com.sun.xml.internal.ws.policy.EffectiveAlternativeSelector;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Lista_pracownikow {
@@ -20,7 +21,7 @@ public class Lista_pracownikow {
     ////metody
     ///1 - wyświetlanie wszystkich pracowników
     public void print_all(){
-        for(int i = 0; i < licznik_pracownikow; i++){
+        for(int i = 0; i < (licznik_pracownikow-1); i++){
             if(lista[i] != null)
                 lista[i].display_less(i);
             else
@@ -167,7 +168,38 @@ public class Lista_pracownikow {
     ///99 - generator pracownikow
 
     public void generator_pracownikow(){
+        Random losowanie = new Random();
+        String []imiona_męskie = {"Krzysztof", "Adam", "Paweł", "Filip", "Piotr", "Jerzy", "Robert", "Mateusz", "Jan"};
+        String []imiona_damskie = {"Karolina", "Agnieszka", "Ewa", "Małgorzata", "Maja", "Natalia", "Krzystofia", "Anna"};
+        String []nazwiska = {"Kozłowski", "Kowalski", "Adamczeski", "Czepielewski", "Tokarczyk", "Piekara","Glas"};
 
+        String imie, nazwisko;
+        char plec;
+        int nr_dzialu, wiek, dzieci;
+        float placa;
+        boolean stan_cywilny;
+
+        for(int i = 0; i < 100; i++) {
+            if (losowanie.nextInt() == 0) {
+                plec = 'M';
+                imie = imiona_męskie[losowanie.nextInt(imiona_męskie.length)];
+
+            } else {
+                plec = 'K';
+                imie = imiona_damskie[losowanie.nextInt(imiona_damskie.length)];
+            }
+
+            nazwisko = nazwiska[losowanie.nextInt(nazwiska.length)];
+            nr_dzialu = losowanie.nextInt(10);
+            wiek = losowanie.nextInt(65 - 18) + 18;
+            dzieci = losowanie.nextInt(5);
+            placa = (float) (losowanie.nextInt(5000) + 1500);
+            if (losowanie.nextBoolean()) stan_cywilny = true;
+            else stan_cywilny = false;
+
+            lista[i] = new Pracownik(imie, nazwisko, plec, nr_dzialu, placa, wiek, dzieci, stan_cywilny);
+            licznik_pracownikow++;
+        }
     }
 
     ////settery i gettery
