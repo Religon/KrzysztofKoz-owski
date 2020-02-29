@@ -14,7 +14,7 @@ public class Menu {
         Scanner cin = new Scanner(System.in);
         String linia = "";
         int n = 0;
-
+        String listaP = "";
         while(!linia.equals("q")) {
             System.out.println("podaj n:" +
                     "\n1 - lista pracowników" +
@@ -22,6 +22,7 @@ public class Menu {
                     "\n3 - usunięcie pracownika" +
                     "\n4 - edycja pracownika" +
                     "\n5 - dodatkowe funkcje" +
+                    "\n6 - zapis do pliku" +
                     "\n99 - generator pracowników");
 
             n = cin.nextInt();
@@ -42,26 +43,26 @@ public class Menu {
                 case 5:
                     lista.dodatkowe_funkcje();
                     break;
+                case 6:
+                    for (int i = 0; i < (lista.getLicznik_pracownikow()-1); i++) {
+                        listaP += lista.getPracownik(i) + "\n";
+                    }
+                    return listaP;
                 case 99:
                     lista.generator_pracownikow();
                     break;
                 default:
                     break;
             }
-
-
             cin.nextLine();
             System.out.println("by zakończyć wciśnij q, by kontynuować cokolowiek innego");
             linia = cin.nextLine();
             System.out.println(linia);
+
         }
 
-        String listaP = null;
+        return "";
 
-        for (int i = 0; i < lista.getLicznik_pracownikow(); i++) {
-            listaP += lista.getPracownik(i);
-        }
-        return listaP;
     }
 
     public Lista_pracownikow getLista() {

@@ -15,15 +15,16 @@ public class Lista_pracownikow {
 
     public Lista_pracownikow() {
         Pracownik p = new Pracownik("Krzysztof", "Kozłowski", 'M', 1, 2500, 26, 0, false);
-        lista[licznik_pracownikow++] = p;
+        lista[licznik_pracownikow] = p;
+        licznik_pracownikow++;
     }
 
     ////metody
     ///1 - wyświetlanie wszystkich pracowników
     public void print_all(){
-        for(int i = 0; i < (licznik_pracownikow-1); i++){
+        for(int i = 0; i < (licznik_pracownikow); i++){
             if(lista[i] != null)
-                lista[i].display_less(i);
+                System.out.println(lista[i].display_less(i));
             else
                 System.out.println("Pusto.");
         }
@@ -193,7 +194,7 @@ public class Lista_pracownikow {
         float placa;
         boolean stan_cywilny;
 
-        for(int i = 0; i < 100; i++) {
+        for(int i = 1; i < 100; i++) {
             if (losowanie.nextInt() == 0) {
                 plec = 'M';
                 imie = imiona_męskie[losowanie.nextInt(imiona_męskie.length)];

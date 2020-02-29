@@ -9,10 +9,10 @@ public class Main {
     public static void main(String[] args) throws FileNotFoundException {
         Menu menu = new Menu(new Lista_pracownikow());
         Scanner cin = new Scanner(System.in);
-        String linia = "", listaP = null;
+        String linia = "", listaP = "";
 
         while(!linia.equals("e")){
-            listaP = menu.printMenu();
+            listaP += menu.printMenu();
             PrintWriter tekstowy = new PrintWriter("plik.txt");
             tekstowy.println(listaP);
             tekstowy.close();
