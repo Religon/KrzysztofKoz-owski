@@ -1,4 +1,4 @@
-package z_dom_na_7.zadanie1;
+package pl.sda.z_dom_na_7.zadanie1;
 
 public class Kalkulator {
     ///Metody

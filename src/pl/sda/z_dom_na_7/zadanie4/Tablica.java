@@ -1,4 +1,4 @@
-package z_dom_na_7.zadanie4;
+package pl.sda.z_dom_na_7.zadanie4;
 
 import java.util.Scanner;
 

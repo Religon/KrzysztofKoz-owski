@@ -1,6 +1,4 @@
-package z_dom_na_7.Firma_new_version;
-
-import com.sun.xml.internal.ws.policy.EffectiveAlternativeSelector;
+package pl.sda.z_dom_na_7.Firma_new_version;
 
 import java.util.Random;
 import java.util.Scanner;
@@ -79,10 +77,18 @@ public class Lista_pracownikow {
             index = Integer.parseInt(cin.nextLine());
             lista[index] = null;
             System.out.println("Usunięto pracownika.");
+            print_all();
+            System.out.println();
+            for(int  i = index; i < (lista.length-1); i++){
+                lista[i] = lista[i+1];
+            }
+            print_all();
         }
         else {
             System.out.println("Lista jest pusta.");
         }
+
+
     }
 
     ///4 - edycja pracownika

@@ -1,4 +1,4 @@
-package z_dom_na_7.zadanie5;
+package pl.sda.z_dom_na_7.zadanie5;
 
 import java.util.Random;
 import java.util.Scanner;

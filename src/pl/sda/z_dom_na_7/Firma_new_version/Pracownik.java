@@ -1,4 +1,4 @@
-package z_dom_na_7.Firma_new_version;
+package pl.sda.z_dom_na_7.Firma_new_version;
 
 public class Pracownik {
     ///Pola
