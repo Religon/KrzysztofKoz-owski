@@ -10,7 +10,7 @@ public class Menu {
         this.lista = lista;
     }
 
-    public void printMenu(){
+    public String printMenu(){
         Scanner cin = new Scanner(System.in);
         String linia = "";
         int n = 0;
@@ -49,11 +49,19 @@ public class Menu {
                     break;
             }
 
+
             cin.nextLine();
             System.out.println("by zakończyć wciśnij q, by kontynuować cokolowiek innego");
             linia = cin.nextLine();
             System.out.println(linia);
         }
+
+        String listaP = null;
+
+        for (int i = 0; i < lista.getLicznik_pracownikow(); i++) {
+            listaP += lista.getPracownik(i);
+        }
+        return listaP;
     }
 
     public Lista_pracownikow getLista() {

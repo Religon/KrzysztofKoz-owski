@@ -1,5 +1,7 @@
 package pl.sda.z_dom_na_7.Firma_new_version;
 
+import java.io.PrintWriter;
+import java.io.FileNotFoundException;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -74,7 +76,7 @@ public class Lista_pracownikow {
 
         if(suma_pracownikow > 0){
             System.out.println("Podaj index pracownika do usunięcia:");
-            index = Integer.parseInt(cin.nextLine());
+            index = Integer.parseInt(cin.nextLine()) - 1;
             lista[index] = null;
             System.out.println("Usunięto pracownika.");
             print_all();
@@ -155,7 +157,7 @@ public class Lista_pracownikow {
 
         if(suma_pracownikow > 0){
             System.out.println("Podaj index pracownika do edycji:");
-            index = Integer.parseInt(cin.nextLine());
+            index = Integer.parseInt(cin.nextLine())-1;
             lista[index].display_pracownik();
 
             pole_do_edytowania(index);
@@ -170,6 +172,12 @@ public class Lista_pracownikow {
     public void dodatkowe_funkcje(){
 
     }
+
+    ///6 - Zapis do pliku
+    public String getPracownik(int i){
+        return lista[i].display_less(i);
+    }
+
 
     ///99 - generator pracownikow
 

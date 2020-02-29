@@ -24,8 +24,8 @@ public class Pracownik {
                 ", stan_cywilny:" + stan_cywilny);
     }
 
-    public void display_less(int i){
-        System.out.println( (i+1) +  " " + imie + " " + nazwisko +" - " + placa);
+    public String display_less(int i){
+       return (i+1) +  " " + imie + " " + nazwisko +" - " + placa;
     }
 
     public  void special_display(){
