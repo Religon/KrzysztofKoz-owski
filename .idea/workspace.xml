@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14fdff7c-9bf6-4ba1-bb38-2ffabad7b5b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia9/Figury_geometryczne/Circle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/sda/zajęcia9/Figury_geometryczne/Koło.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/sda/zajęcia9/Figury_geometryczne/Kalkulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia9/Figury_geometryczne/Kalkulator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/sda/zajęcia9/Figury_geometryczne/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia9/Figury_geometryczne/Rectangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/sda/zajęcia9/Figury_geometryczne/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia9/Figury_geometryczne/Shape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/sda/zajęcia9/Figury_geometryczne/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia9/Figury_geometryczne/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/sda/zajęcia9/Figury_geometryczne/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia9/Figury_geometryczne/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,13 +49,26 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
-  <component name="RunManager" selected="Application.Bank">
+  <component name="RunManager" selected="Application.Kalkulator">
     <configuration name="Bank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.sda.zajęcia9.Bank.Bank" />
       <module name="KrzysztofKoz-owski" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pl.sda.zajęcia9.Bank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Kalkulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.sda.zajęcia9.Figury_geometryczne.Kalkulator" />
+      <module name="KrzysztofKoz-owski" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.sda.zajęcia9.Figury_geometryczne.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,26 +141,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="String_dzielenie_wyrazow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.sda.zajęcia7.String_dzielenie_wyrazow" />
-      <module name="KrzysztofKoz-owski" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.sda.zajęcia7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Kalkulator" />
         <item itemvalue="Application.Bank" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.String_dzielenie_wyrazow" />
       </list>
     </recent_temporary>
   </component>
@@ -316,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583585904342</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Zajęcia 9 Bank + figury">
+      <created>1583587663427</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1583587663427</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -363,38 +368,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="903" y="218" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1583315120956" />
-    <state x="574" y="97" key="#com.intellij.ide.util.MemberChooser" timestamp="1583586754992">
+    <state x="574" y="97" key="#com.intellij.ide.util.MemberChooser" timestamp="1583588684145">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="97" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1583586754992" />
+    <state x="574" y="97" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1583588684145" />
     <state x="449" y="149" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1582541711807">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="149" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1582541711807" />
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1583585902202">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1583587662119">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1583585902202" />
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1583587662119" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1582983334618">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582983334618" />
-    <state width="1493" height="245" key="GridCell.Tab.0.bottom" timestamp="1583585868132">
+    <state width="1493" height="245" key="GridCell.Tab.0.bottom" timestamp="1583590398051">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="245" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583585868132" />
-    <state width="1493" height="245" key="GridCell.Tab.0.center" timestamp="1583585868132">
+    <state width="1493" height="245" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583590398051" />
+    <state width="1493" height="245" key="GridCell.Tab.0.center" timestamp="1583590398051">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="245" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583585868132" />
-    <state width="1493" height="245" key="GridCell.Tab.0.left" timestamp="1583585868132">
+    <state width="1493" height="245" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583590398051" />
+    <state width="1493" height="245" key="GridCell.Tab.0.left" timestamp="1583590398051">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="245" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583585868132" />
-    <state width="1493" height="245" key="GridCell.Tab.0.right" timestamp="1583585868132">
+    <state width="1493" height="245" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583590398051" />
+    <state width="1493" height="245" key="GridCell.Tab.0.right" timestamp="1583590398051">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="245" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583585868132" />
+    <state width="1493" height="245" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583590398051" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1583580439784">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -415,10 +420,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581762672949" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1583585910950">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1583587670144">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1583585910950" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1583587670144" />
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1583570378838">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

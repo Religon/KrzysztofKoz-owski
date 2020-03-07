@@ -9,5 +9,7 @@ public abstract class Shape {
 
     public abstract double getPermiter();
 
-
+    public String toString(){
+        return getArea() + " " + getPermiter();
+    }
 }

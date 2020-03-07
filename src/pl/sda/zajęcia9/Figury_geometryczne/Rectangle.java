@@ -14,6 +14,8 @@ public class Rectangle extends Polygon {
         return (2*a + 2*b);
     }
 
+
+
     ////////konstruktor
     public Rectangle(double a, double b){
         this.a = a;
