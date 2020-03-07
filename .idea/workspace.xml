@@ -2,30 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14fdff7c-9bf6-4ba1-bb38-2ffabad7b5b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hs_err_pid3148.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/sda/przed_zajęcia9/Athor_and_the_Book_Class/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/sda/przed_zajęcia9/Athor_and_the_Book_Class/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/sda/przed_zajęcia9/Athor_and_the_Book_Class/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/sda/przed_zajęcia9/Circle/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/sda/przed_zajęcia9/Circle/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia8_testowanie_oprogramowania/tdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia9/Bank/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia9/Bank/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia9/Bank/Bisness_Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia9/Bank/Checking_account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia9/Bank/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia9/Bank/Credit_account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia9/Bank/Personal_Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia9/Figury_geometryczne/Kalkulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia9/Figury_geometryczne/Koło.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia9/Figury_geometryczne/Polygon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia9/Figury_geometryczne/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia9/Figury_geometryczne/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia9/Figury_geometryczne/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia9/Figury_geometryczne/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia9/Figury_geometryczne/Circle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KrzysztofKoz-owski/pl/sda/z_dom_na_7/Firma_new_version/Lista_pracownikow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KrzysztofKoz-owski/pl/sda/z_dom_na_7/Firma_new_version/Lista_pracownikow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/sda/z_dom_na_7/Firma_new_version/Lista_pracownikow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/sda/z_dom_na_7/Firma_new_version/Lista_pracownikow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/sda/zajęcia9/Figury_geometryczne/Koło.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/sda/zajęcia9/Figury_geometryczne/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia9/Figury_geometryczne/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/sda/zajęcia9/Figury_geometryczne/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia9/Figury_geometryczne/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/sda/zajęcia9/Figury_geometryczne/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia9/Figury_geometryczne/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/sda/zajęcia9/Figury_geometryczne/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia9/Figury_geometryczne/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -326,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582985161594</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Zajęcia 9 Bank + figury">
+      <created>1583585904342</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1583585904342</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -361,7 +351,8 @@
     <MESSAGE value="Operacje na Data i Czas" />
     <MESSAGE value="Próba zapisu i odczytu pliku" />
     <MESSAGE value="Próba zapisu i odczytu pliku Naprawiona" />
-    <option name="LAST_COMMIT_MESSAGE" value="Próba zapisu i odczytu pliku Naprawiona" />
+    <MESSAGE value="Zajęcia 9 Bank + figury" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zajęcia 9 Bank + figury" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="72" key="#Code_Folding" timestamp="1581840943543">
@@ -372,18 +363,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="903" y="218" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1583315120956" />
-    <state x="574" y="97" key="#com.intellij.ide.util.MemberChooser" timestamp="1583578602630">
+    <state x="574" y="97" key="#com.intellij.ide.util.MemberChooser" timestamp="1583586754992">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="97" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1583578602630" />
+    <state x="574" y="97" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1583586754992" />
     <state x="449" y="149" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1582541711807">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="149" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1582541711807" />
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1582985160560">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1583585902202">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1582985160560" />
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1583585902202" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1582983334618">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -424,10 +415,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581762672949" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1582985169116">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1583585910950">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1582985169116" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1583585910950" />
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1583570378838">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
