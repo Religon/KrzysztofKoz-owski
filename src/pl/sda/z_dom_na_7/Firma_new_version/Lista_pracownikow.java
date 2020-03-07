@@ -1,7 +1,5 @@
 package pl.sda.z_dom_na_7.Firma_new_version;
 
-import java.io.PrintWriter;
-import java.io.FileNotFoundException;
 import java.util.Random;
 import java.util.Scanner;
 
