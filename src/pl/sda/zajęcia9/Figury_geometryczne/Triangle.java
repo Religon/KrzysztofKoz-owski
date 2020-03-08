@@ -8,12 +8,24 @@ public class Triangle extends Polygon {
 
 
     @Override
-    public double getArea() {
+    public double getArea() throws IllegalTriangle, Rectangular_triangle{
+        if((a+b)<c || (a+c)<b || (b+c)<a){
+            throw new IllegalTriangle("Nie można zbudować trójkąta!");
+        }
+
+        double pitagoras = a*a + b*b;
+        if(pitagoras == (c*c)){
+            throw new Rectangular_triangle("To jest trójkąt prostokątny");
+        }
+
         return (a * h)/2;
     }
 
     @Override
-    public double getPermiter() {
+    public double getPermiter() throws IllegalTriangle{
+        if((a+b)<c || (a+c)<b || (b+c)<a){
+            throw new IllegalTriangle("Nie można zbudować trójkąta!");
+        }
         return a+b+c;
     }
 

@@ -13,10 +13,9 @@ public class Account {
         }
     }
 
-    public int withdraw(int cash){
-        if(cash > 0){
-            System.out.println("Nie można!");
-            return 0;
+    public int withdraw(int cash) throws NewIlleagal{
+        if(cash < 0){
+            throw new NewIlleagal("Nie można!");
         }
         if(cash <= balance){
             balance -= cash;

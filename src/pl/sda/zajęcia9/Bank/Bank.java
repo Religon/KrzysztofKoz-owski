@@ -10,12 +10,22 @@ public class Bank {
         }
 
         Credit_account a1 = new Credit_account("1234",500, c1);
-        Checking_account a2 = new Checking_account("3214",100, c1);
+        Account a2 = new Checking_account("3214",100, c1);
         Credit_account a3 = new Credit_account("9876",200, c2);
 
         System.out.println("Stan konta a1:" + a1.check_balans());
         System.out.println("Stan konta a2:" + a2.check_balans());
         System.out.println("Stan konta a3:" + a3.check_balans());
+
+        try {
+            a2.withdraw(-5);
+        }
+        catch (NewIlleagal e){
+            System.out.println("Wyjątek " + e.getMessage());
+        }
+        finally {
+            System.out.println("tak czy siak się wykona");
+        }
 
         System.out.println(a1.toString());
         System.out.println(a2.toString());
