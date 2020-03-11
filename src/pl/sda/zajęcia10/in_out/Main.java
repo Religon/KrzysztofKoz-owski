@@ -38,7 +38,4 @@ public class Main {
         }
     }
 
-    static char rek(int c){
-        return rek(c+10);
-    }
 }

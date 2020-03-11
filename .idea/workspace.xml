@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14fdff7c-9bf6-4ba1-bb38-2ffabad7b5b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pl/sda/zad_dom_na_11/przetwarzanie_tekstu/przetwarzanie_tekstu/Direction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/sda/zad_dom_na_11/przetwarzanie_tekstu/przetwarzanie_tekstu/DirectionMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zad_dom_na_11/przetwarzanie_tekstu/przetwarzanie_tekstu_2/Szekspir.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/sda/zajęcia10/in_out/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia10/in_out/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/text.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,20 +59,7 @@
       <recent name="pl.sda.zajęcia9.Figury_geometryczne" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DirectionMain">
-    <configuration name="Bank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.sda.zajęcia9.Bank.Bank" />
-      <module name="KrzysztofKoz-owski" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.sda.zajęcia9.Bank.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Szekspir">
     <configuration name="DirectionMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.sda.zad_dom_na_11.przetwarzanie_tekstu.przetwarzanie_tekstu.DirectionMain" />
       <module name="KrzysztofKoz-owski" />
@@ -137,13 +125,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Szekspir" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.sda.zad_dom_na_11.przetwarzanie_tekstu.przetwarzanie_tekstu_2.Szekspir" />
+      <module name="KrzysztofKoz-owski" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.sda.zad_dom_na_11.przetwarzanie_tekstu.przetwarzanie_tekstu_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Szekspir" />
         <item itemvalue="Application.DirectionMain" />
         <item itemvalue="Application.EnumExample" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Kalkulator" />
-        <item itemvalue="Application.Bank" />
       </list>
     </recent_temporary>
   </component>
@@ -338,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583920244366</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Kierunki świata">
+      <created>1583923723018</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1583923723018</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -376,7 +384,8 @@
     <MESSAGE value="Zajęcia 9 Bank + figury" />
     <MESSAGE value="Zajęcia 9 Bank + figury (Exeptions)" />
     <MESSAGE value="Zajęcia 10 tryb wyliczeniowy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zajęcia 10 tryb wyliczeniowy" />
+    <MESSAGE value="Kierunki świata" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kierunki świata" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="72" key="#Code_Folding" timestamp="1581840943543">
@@ -395,30 +404,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="149" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1582541711807" />
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1583920242640">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1583923721722">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1583920242640" />
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1583923721722" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1582983334618">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582983334618" />
-    <state width="1493" height="245" key="GridCell.Tab.0.bottom" timestamp="1583923699074">
+    <state width="1493" height="245" key="GridCell.Tab.0.bottom" timestamp="1583927431900">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="245" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583923699074" />
-    <state width="1493" height="245" key="GridCell.Tab.0.center" timestamp="1583923699074">
+    <state width="1493" height="245" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583927431900" />
+    <state width="1493" height="245" key="GridCell.Tab.0.center" timestamp="1583927431900">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="245" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583923699074" />
-    <state width="1493" height="245" key="GridCell.Tab.0.left" timestamp="1583923699074">
+    <state width="1493" height="245" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583927431900" />
+    <state width="1493" height="245" key="GridCell.Tab.0.left" timestamp="1583927431900">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="245" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583923699074" />
-    <state width="1493" height="245" key="GridCell.Tab.0.right" timestamp="1583923699074">
+    <state width="1493" height="245" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583927431900" />
+    <state width="1493" height="245" key="GridCell.Tab.0.right" timestamp="1583927431900">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="245" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583923699074" />
+    <state width="1493" height="245" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583927431900" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1583679624423">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -439,10 +448,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581762672949" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1583920251876">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1583923729642">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1583920251876" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1583923729642" />
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1583920136987">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
