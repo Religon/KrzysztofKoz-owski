@@ -2,18 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14fdff7c-9bf6-4ba1-bb38-2ffabad7b5b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia11/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia11/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia11/Office.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia11/TwoHanded.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia11/TwoLegged.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia11/zad1/PlayingWithCollections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia11/zad2/Clinic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia11/zad2/Patient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia11/zad3/PlayingWithMaps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia11/zad4/zad4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia11/zad5/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia11/zad5/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia12/speedway/Rider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia12/speedway/Track.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia12/zad1/AverageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia12/zad1/Duplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia12/zad1/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia12/zad1/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia12/zad2/ParallelProcessing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia12/zad2/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia12/zad3/Developer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia12/zad3/OpenSpace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia12/zad3b/WorkSymulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia12/zad3b/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia13/FuncionalProgrammingExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia13/zad1/Class.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia13/zad1/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia13/zad1/PersonComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia13/zad1/SdaLInkedLIstNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia13/zad1/SdaLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia13/zad2/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia13/zad2/AccountHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia13/zad2/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/sda/zajęcia11/zad5/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/sda/zajęcia11/zad5/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,24 +71,27 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\KrzysztofKoz-owski" />
-      <recent name="D:\KrzysztofKoz-owski\src" />
-      <recent name="D:\KrzysztofKoz-owski\src\pl\sda\zajęcia10\in_out" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="pl.sda.zajęcia11.zad2" />
       <recent name="pl.sda.zajęcia11" />
       <recent name="pl.sda.zajęcia9.Figury_geometryczne" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pl.sda.zajęcia12.zad1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\KrzysztofKoz-owski" />
+      <recent name="D:\KrzysztofKoz-owski\src" />
+      <recent name="D:\KrzysztofKoz-owski\src\pl\sda\zajęcia10\in_out" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.zad4">
-    <configuration name="Clinic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.sda.zajęcia11.zad2.Clinic" />
+  <component name="RunManager" selected="Application.FuncionalProgrammingExample">
+    <configuration name="Class" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.sda.zajęcia13.zad1.Class" />
       <module name="KrzysztofKoz-owski" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.sda.zajęcia11.zad2.*" />
+          <option name="PATTERN" value="pl.sda.zajęcia13.zad1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlayingWithCollections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.sda.zajęcia11.zad1.PlayingWithCollections" />
+    <configuration name="FuncionalProgrammingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.sda.zajęcia13.FuncionalProgrammingExample" />
       <module name="KrzysztofKoz-owski" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.sda.zajęcia11.zad1.*" />
+          <option name="PATTERN" value="pl.sda.zajęcia13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlayingWithMaps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.sda.zajęcia11.zad3.PlayingWithMaps" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.sda.zajęcia13.zad2.Main" />
       <module name="KrzysztofKoz-owski" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.sda.zajęcia11.zad3.*" />
+          <option name="PATTERN" value="pl.sda.zajęcia13.zad2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Szekspir" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.sda.zad_dom_na_11.przetwarzanie_tekstu.przetwarzanie_tekstu_2.Szekspir" />
+    <configuration name="ParallelProcessing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.sda.zajęcia12.zad2.ParallelProcessing" />
       <module name="KrzysztofKoz-owski" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.sda.zad_dom_na_11.przetwarzanie_tekstu.przetwarzanie_tekstu_2.*" />
+          <option name="PATTERN" value="pl.sda.zajęcia12.zad2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="zad4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.sda.zajęcia11.zad4.zad4" />
+    <configuration name="WorkSymulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.sda.zajęcia12.zad3b.WorkSymulation" />
       <module name="KrzysztofKoz-owski" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.sda.zajęcia11.zad4.*" />
+          <option name="PATTERN" value="pl.sda.zajęcia12.zad3b.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.zad4" />
-        <item itemvalue="Application.PlayingWithMaps" />
-        <item itemvalue="Application.Clinic" />
-        <item itemvalue="Application.PlayingWithCollections" />
-        <item itemvalue="Application.Szekspir" />
+        <item itemvalue="Application.FuncionalProgrammingExample" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Class" />
+        <item itemvalue="Application.WorkSymulation" />
+        <item itemvalue="Application.ParallelProcessing" />
       </list>
     </recent_temporary>
   </component>
@@ -358,7 +373,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583927544479</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Zajęcia 11">
+      <created>1587275562150</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1587275562150</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -398,7 +420,8 @@
     <MESSAGE value="Zajęcia 10 tryb wyliczeniowy" />
     <MESSAGE value="Kierunki świata" />
     <MESSAGE value="Liczebniki w dziele Szekspira" />
-    <option name="LAST_COMMIT_MESSAGE" value="Liczebniki w dziele Szekspira" />
+    <MESSAGE value="Zajęcia 11" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zajęcia 11" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="72" key="#Code_Folding" timestamp="1581840943543">
@@ -409,66 +432,66 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="903" y="218" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1583315120956" />
-    <state x="574" y="97" key="#com.intellij.ide.util.MemberChooser" timestamp="1587205002365">
+    <state x="574" y="97" key="#com.intellij.ide.util.MemberChooser" timestamp="1587806378231">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="97" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1587205002365" />
+    <state x="574" y="97" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1587806378231" />
     <state x="449" y="149" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1582541711807">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="149" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1582541711807" />
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1583927543636">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1587275560336">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1583927543636" />
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587275560336" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1582983334618">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582983334618" />
-    <state width="696" height="260" key="GridCell.Tab.0.bottom" timestamp="1587211036054">
+    <state width="698" height="260" key="GridCell.Tab.0.bottom" timestamp="1587816243043">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="696" height="260" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587211036054" />
-    <state width="696" height="260" key="GridCell.Tab.0.center" timestamp="1587211036054">
+    <state width="698" height="260" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587816243043" />
+    <state width="698" height="260" key="GridCell.Tab.0.center" timestamp="1587816243043">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="696" height="260" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587211036054" />
-    <state width="696" height="260" key="GridCell.Tab.0.left" timestamp="1587211036054">
+    <state width="698" height="260" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587816243043" />
+    <state width="698" height="260" key="GridCell.Tab.0.left" timestamp="1587816243043">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="696" height="260" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587211036054" />
-    <state width="696" height="260" key="GridCell.Tab.0.right" timestamp="1587211036054">
+    <state width="698" height="260" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587816243043" />
+    <state width="698" height="260" key="GridCell.Tab.0.right" timestamp="1587816243043">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="696" height="260" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587211036054" />
-    <state width="696" height="260" key="GridCell.Tab.1.bottom" timestamp="1587211036054">
+    <state width="698" height="260" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587816243043" />
+    <state width="698" height="260" key="GridCell.Tab.1.bottom" timestamp="1587816243043">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="696" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587211036054" />
-    <state width="696" height="260" key="GridCell.Tab.1.center" timestamp="1587211036054">
+    <state width="698" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587816243043" />
+    <state width="698" height="260" key="GridCell.Tab.1.center" timestamp="1587816243043">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="696" height="260" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1587211036054" />
-    <state width="696" height="260" key="GridCell.Tab.1.left" timestamp="1587211036054">
+    <state width="698" height="260" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1587816243043" />
+    <state width="698" height="260" key="GridCell.Tab.1.left" timestamp="1587816243043">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="696" height="260" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1587211036054" />
-    <state width="696" height="260" key="GridCell.Tab.1.right" timestamp="1587211036054">
+    <state width="698" height="260" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1587816243043" />
+    <state width="698" height="260" key="GridCell.Tab.1.right" timestamp="1587816243043">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="696" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1587211036054" />
+    <state width="698" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1587816243043" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1581762672949">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581762672949" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1583927553508">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1587275571833">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1583927553508" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1587274723384">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1587275571833" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1587884829952">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587274723384" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587884829952" />
     <state x="499" y="168" width="538" height="495" key="extract.method.dialog" timestamp="1582546252148">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -485,17 +508,17 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="209" y="33" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1583058079434" />
-    <state x="511" y="41" key="refactoring.ChangeSignatureDialog" timestamp="1583578958009">
+    <state x="511" y="41" key="refactoring.ChangeSignatureDialog" timestamp="1587806316801">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="511" y="41" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1583578958009" />
+    <state x="511" y="41" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1587806316801" />
     <state x="901" y="190" key="run.anything.popup" timestamp="1583921806197">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="901" y="190" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1583921806197" />
-    <state x="431" y="145" key="search.everywhere.popup" timestamp="1582883871953">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1587798503079">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1582883871953" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1587798503079" />
   </component>
 </project>

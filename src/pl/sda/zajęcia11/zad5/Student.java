@@ -1,12 +1,11 @@
 package pl.sda.zajęcia11.zad5;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class Student {
-    private String firstname;
-    private String lastname;
-    private String mainLanguage;
+    private final String firstname;
+    private final String lastname;
+    private final String mainLanguage;
 
     public Student(String firstname, String lastname, String mainLanguage){
         this.firstname = firstname;
@@ -14,10 +13,14 @@ public class Student {
         this.mainLanguage = mainLanguage;
     }
 
-
-
-    public static void main(String[] args) {
-        Map<Student, Integer> students = new HashMap<>();
-
+    @Override
+    public String toString() {
+        return
+                firstname + " " +
+                lastname + " " +
+                mainLanguage;
     }
+
+
+
 }
